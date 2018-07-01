@@ -1,24 +1,3 @@
-<section class="todoapp">
-  <header class="header">
-    <h1>todos</h1>
-    <form id="new-form">
-      <input type="text" class="new-todo" placeholder="What needs to be done?" />
-    </form>
-  </header>
-
-  <section class="main">
-    <ul class="todo-list">
-
-    </ul>
-  </section>
-</section>
-
-<section class="author">
-  A <%= link_to "todo-mvc", "http://todomvc.com" %>
-  application, built by
-  <%= link_to "Ken Mazaika", "http://github.com/kenmazaika" %>
-</section>
-
 <script>
   $(function() {
 
